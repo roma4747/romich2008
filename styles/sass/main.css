@@ -87,6 +87,7 @@ button {
   background-color: var(--white);
   margin: 0 auto;
   box-shadow: none;
+  position: fixed;
 }
 .header-logo {
   width: 115px;
@@ -279,6 +280,9 @@ button {
   color: var(--iris);
   width: 353px;
   height: 40px;
+  word-wrap: break-word; /* Перенос текста при нехватке места */
+  word-break: break-word; /* Для длинных слов */
+  white-space: normal; /* Разрешает перенос строк */
 }
 .header-menu-info-email {
   font-family: var(--font-family);
